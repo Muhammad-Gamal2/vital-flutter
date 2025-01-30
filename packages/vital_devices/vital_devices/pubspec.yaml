@@ -22,9 +22,12 @@ dependencies:
   fimber: ^0.6.6
   rxdart: ^0.28.0
   vital_core: ^4.4.0
-  vital_devices_platform_interface: ^4.5.0
-  vital_devices_android: ^4.5.0
-  vital_devices_ios: ^4.5.0
+  vital_devices_platform_interface:
+    path: ../vital_devices_platform_interface
+  vital_devices_android:
+    path: ../vital_devices_android
+  vital_devices_ios:
+    path: ../vital_devices_ios
 dev_dependencies:
   flutter_test:
     sdk: flutter
